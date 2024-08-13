@@ -54,7 +54,7 @@ nav {
 .navigation {
 	display: flex;
 	list-style: none;
-  gap: 3px;
+  gap: 5px;
 }
 
 .navigation li {
