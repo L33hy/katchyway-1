@@ -10,7 +10,7 @@
 	--nav-background-color: #f8f8f8;
 	--nav-link-color: #065cb8;
 	--nav-hover-link-color: #fff;
-	--nav-hover-background-color: #e4e2df ;
+	--nav-hover-background-color: #e4e2df;
 }
 
 * {
@@ -26,45 +26,40 @@ body {
 }
 
 header {
-  margin: auto;
+  margin: 1rem auto;
   display: grid;
   grid-template-columns: 600px 300px;
-  
+  align-items: center;
+  justify-items: center;
   background-color: var(--primary-color);
-  padding: 10px 0;
-  width: 100%;
+  padding: 1rem;
 }
 
-align-items: left;
-  justify-items: left;
-  
 .logo-container {
   display: flex;
+  background-color: #82a327;
   border-radius: 50%;
-  justify-content: auto;
-  align-items: auto;
+  
   padding: 0.1rem 0.2rem 0.4rem 0.2rem;
 }
 
 .logo {
-	width: 150px;
+	width: 80px;
 }
 
 nav {
-	text-align: auto;
+	text-align: center;
 }
 
 .navigation {
 	display: flex;
 	list-style: none;
-  gap: 5px;
-  align-items: right;
+  gap: 3px;
 }
 
 .navigation li {
   padding: 0.7rem 2rem;
   background-color: var(--nav-background-color);
-  align-content: center;
 }
 
 .navigation li a {
@@ -97,7 +92,7 @@ img {
 }
 
 .container {
-  max-width: 100%;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -680,25 +675,6 @@ div.home-quote p:nth-child(2) {
 .home-intro > p {
   font-size: 20px;
   font-weight: 500;
-}
-
-.add-to-cart {
-  background-color: #0b53da; /* Green background */
-  border: none; /* Remove borders */
-  color: white; /* White text */
-  padding: 15px 32px; /* Some padding */
-  text-align: center; /* Centered text */
-  text-decoration: none; /* Remove underline */
-  display: inline-block; /* Inline-block element */
-  font-size: 16px; /* Increase font size */
-  margin: 4px 2px; /* Some margin */
-  cursor: pointer; /* Pointer/hand icon */
-  border-radius: 12px; /* Rounded corners */
-  transition: background-color 0.3s ease; /* Transition for hover effect */
-}
-
-.add-to-cart:hover {
-  background-color: #258db6; /* Darker green on hover */
 }
 
 .intro-heading {
