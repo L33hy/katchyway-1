@@ -810,3 +810,22 @@ div.home-quote p:nth-child(2) {
   font-size: 15px;
   cursor: pointer;
 }
+
+.custom-button {
+    background-color: blue; /* Green background */
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 15px 32px; /* Some padding */
+    text-align: center; /* Centered text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Inline-block element */
+    font-size: 16px; /* Increase font size */
+    margin: 4px 2px; /* Some margin */
+    cursor: pointer; /* Pointer/hand icon */
+    border-radius: 12px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Transition for hover effect */
+}
+
+.custom-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
