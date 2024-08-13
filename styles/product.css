@@ -810,7 +810,7 @@ div.home-quote p:nth-child(2) {
   cursor: pointer;
 }
 
-.custom-button {
+.add-to-cart {
     background-color: blue; /* Green background */
     border: none; /* Remove borders */
     color: white; /* White text */
@@ -825,6 +825,6 @@ div.home-quote p:nth-child(2) {
     transition: background-color 0.3s ease; /* Transition for hover effect */
 }
 
-.custom-button:hover {
+.add-to-cart:hover {
     background-color: #45a049; /* Darker green on hover */
 }
