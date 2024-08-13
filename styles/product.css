@@ -26,41 +26,45 @@ body {
 }
 
 header {
-  margin: 1rem auto;
+  margin: auto;
   display: grid;
   grid-template-columns: 600px 300px;
-  align-items: center;
-  justify-items: center;
+  
   background-color: var(--primary-color);
-  padding: 1rem;
+  padding: 10px 0;
+  width: 100%;
 }
 
+align-items: left;
+  justify-items: left;
+  
 .logo-container {
   display: flex;
-  background-color: #fff;
   border-radius: 50%;
-  justify-content: center;
-  align-items: center;
+  justify-content: auto;
+  align-items: auto;
   padding: 0.1rem 0.2rem 0.4rem 0.2rem;
 }
 
 .logo {
-	width: 100px;
+	width: 150px;
 }
 
 nav {
-	text-align: center;
+	text-align: auto;
 }
 
 .navigation {
 	display: flex;
 	list-style: none;
-  gap: 3px;
+  gap: 5px;
+  align-items: right;
 }
 
 .navigation li {
   padding: 0.7rem 2rem;
   background-color: var(--nav-background-color);
+  align-content: center;
 }
 
 .navigation li a {
@@ -93,7 +97,7 @@ img {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
 }
 
@@ -676,6 +680,25 @@ div.home-quote p:nth-child(2) {
 .home-intro > p {
   font-size: 20px;
   font-weight: 500;
+}
+
+.add-to-cart {
+  background-color: #0b53da; /* Green background */
+  border: none; /* Remove borders */
+  color: white; /* White text */
+  padding: 15px 32px; /* Some padding */
+  text-align: center; /* Centered text */
+  text-decoration: none; /* Remove underline */
+  display: inline-block; /* Inline-block element */
+  font-size: 16px; /* Increase font size */
+  margin: 4px 2px; /* Some margin */
+  cursor: pointer; /* Pointer/hand icon */
+  border-radius: 12px; /* Rounded corners */
+  transition: background-color 0.3s ease; /* Transition for hover effect */
+}
+
+.add-to-cart:hover {
+  background-color: #258db6; /* Darker green on hover */
 }
 
 .intro-heading {
