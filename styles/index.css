@@ -832,19 +832,3 @@ div.home-quote p:nth-child(2) {
 .add-to-cart:hover {
   background-color: rgb(124, 124, 219);
 }
-
-.full-width {
-  width: 100%;
-}
-
-.half-width {
-  @media (min-width: 768px) {
-    width: 50%;
-  }
-}
-
-.third-width {
-  @media (min-width: 992px) {
-    width: 33.333%;
-  }
-}
