@@ -12,6 +12,22 @@
 	--nav-hover-link-color: #fff;
 	--nav-hover-background-color: #e4e2df;
 }
+
+header.container {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.logo-container {
+  display: flex;
+  background-color: none;
+  padding: 0.1rem;
+}
+
+img.logo {
+	width: 120px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -27,30 +43,18 @@ body {
 header {
   margin: 1rem auto;
   display: grid;
-  grid-template-columns: 600px 300px;
+  grid-template-columns: 700px 600px;
   align-items: center;
   justify-items: center;
   background-color: var(--primary-color);
   padding: 1rem;
 }
 
-.logo-container {
-  display: flex;
-  background-color: #82a327;
-  border-radius: 50%;
-  
-  padding: 0.1rem 0.2rem 0.4rem 0.2rem;
-}
-
-.logo {
-	width: 80px;
-}
-
 nav {
 	text-align: center;
 }
 
-.navigation {
+ul.navigation {
 	display: flex;
 	list-style: none;
   gap: 5px;
@@ -826,5 +830,21 @@ div.home-quote p:nth-child(2) {
 }
 
 .add-to-cart:hover {
-    background-color: #45a049; /* Darker green on hover */
+  background-color: rgb(124, 124, 219);
+}
+
+.full-width {
+  width: 100%;
+}
+
+.half-width {
+  @media (min-width: 768px) {
+    width: 50%;
+  }
+}
+
+.third-width {
+  @media (min-width: 992px) {
+    width: 33.333%;
+  }
 }
